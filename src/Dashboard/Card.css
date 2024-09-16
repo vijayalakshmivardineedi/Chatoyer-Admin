@@ -1,0 +1,21 @@
+.Card-Dashboard {
+    justify-content: space-around;
+    display: flex;
+    color: #4f3267;
+}
+
+.Cards {
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    height: 150px;
+    margin-top: 20px;
+    font-family: 'Domine', serif;
+    background-color: #faedeb;
+}
+
+.Cards1 {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 40px;
+}

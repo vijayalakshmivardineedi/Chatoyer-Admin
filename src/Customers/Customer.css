@@ -1,0 +1,41 @@
+.Customer-Container {
+  font-family: 'Domine', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Customer-header-text {
+  color: #4f3267;
+  font-size: 35px;
+  text-align: center;
+}
+
+.Customer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.Customertable-header th {
+  background-color: #ebebff;
+  color: #4f3267;
+  font-size: 20px;
+  width: 10px;
+}
+
+.Customertable-body {
+  font-size: 17px;
+}
+
+.Customertable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Customertable th,
+.Customertable td {
+  text-align: left;
+  padding: 10px;
+}

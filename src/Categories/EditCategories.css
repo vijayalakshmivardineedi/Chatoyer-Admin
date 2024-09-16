@@ -1,0 +1,120 @@
+.editcategory-container {
+  font-family: 'Domine', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.editcategory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.editcategory-header-text {
+  color: #4f3267;
+  font-size: 35px;
+  text-align: center;
+}
+
+.editcategory-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 3%;
+  margin-left: 25%;
+  background-color: #ebebff;
+  padding: 20px;
+  border-radius: 8px;
+  width: auto;
+  max-width: 600px;
+  height: auto;
+  min-height: 100px;
+  box-sizing: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.editcategory-card {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ebebff;
+  height: auto;
+  width: 100%;
+}
+
+.editcategory-button {
+  background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+  color: #fff;
+  border: 2px solid #4f3267;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px;
+  cursor: pointer;
+margin-left: 30%;
+}
+
+.editcategory-button:hover {
+  background: #f6f3f9;
+  color: #4f3267;
+  border: 2px solid black;
+}
+
+
+.editcategory-back-button {
+  background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+  color: #fff;
+  border: 2px solid #4f3267;
+  text-align: center;
+  border-radius: 30%;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+  transition: background 0.3s ease;
+  margin-right: 10px;
+  height: 40px;
+}
+
+.editcategory-back-button:hover {
+  background: #f6f3f9;
+  color: #4f3267;
+  border: 2px solid black;
+}
+
+.editform-control {
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.editform-label {
+  font-size: 24px;
+  color: #4f3267;
+  margin-right: 10px;
+}
+.edittext-control {
+  font-size: 20px;
+  width: 100;
+}
+
+.editform-check-input {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  appearance: none;
+  border: 2px solid #4f3267;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editform-check-input:checked {
+  background-color: #4f3267;
+  border-color: #4f3267;
+}
+
+.editform-check-label {
+  font-size: 16px;
+}

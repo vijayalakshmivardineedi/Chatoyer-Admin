@@ -1,0 +1,126 @@
+.products-container {
+  font-family: 'Domine', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.products-header-text {
+  color: #4f3267;
+  font-size: 35px;
+  text-align: center;
+}
+
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.products-header-button {
+  background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+  color: #fff;
+  border: 2px solid #4f3267;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px;
+  transition: background 0.3s ease;
+}
+
+.products-list {
+  list-style: none;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  margin: 5px;
+  padding: 10px;
+}
+
+.product-item-link {
+  text-decoration: none;
+  color: inherit;
+}
+  
+.card {
+  width: 280px;
+  height: 450px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+
+.card-title {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #4f3267;
+}
+
+.card-text {
+  font-size: 15px;
+  color: black;
+}
+
+.product-icons-container {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #fdfafaee;
+  margin-bottom: 10px;
+  margin-left: 60%;
+}
+
+.icon-button { 
+  background-color: white;
+  padding: 2px;
+  width: 35px;
+  height: 35px;
+  font-size: 25px;
+  align-self: center;
+  color: #4f3267;
+  border-radius: 50%;
+  border: none;
+} 
+
+.icon-button:hover {
+  color: #c343ca;
+}
+
+
+.getproduct-back-button {
+  background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+  color: #fff;
+  border: 2px solid #4f3267;
+  text-align: center;
+  border-radius: 30%;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+  transition: background 0.3s ease;
+  margin-right: 10px;
+  height: 40px;
+}
+
+.getproduct-back-button:hover {
+  background: #f6f3f9;
+  color: #4f3267;
+  border: 2px solid black;
+}
+
+.product-images {
+  margin-top: 0px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

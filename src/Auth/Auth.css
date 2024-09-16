@@ -1,0 +1,102 @@
+
+.auth-container {
+    font-size: 25px;
+    width: 550px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ebebff;
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Domine', serif;
+    font-weight: 500;
+}
+
+.signin-text {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.button-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn-link {
+    color: #DE57E5;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.section input[type="contact"],
+.section input[type="email"],
+.section input[type="password"],
+.section input[type="text"],
+.section input[type="contactNumber"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.section-2 {
+    border-radius: 3px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.send-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1 {
+    width: 100%;
+    font-size: 20px;
+    height: 50px;
+    padding: 20px;
+}
+
+.input-row {
+    margin-bottom: 10px;
+}
+
+.input-field {
+    width: 300px;
+    margin: 20px;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

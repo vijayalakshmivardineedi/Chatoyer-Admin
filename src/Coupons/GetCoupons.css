@@ -1,0 +1,123 @@
+.Coupons-container {
+  font-family: 'Domine', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Coupons-header-text {
+  color: #4f3267;
+  font-size: 35px;
+  text-align: center;
+}
+
+.Coupons-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.Coupons-header .Coupons-header-button {
+  background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+  color: #fff;
+  border: 2px solid #4f3267;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px;
+  transition: background 0.3s ease;
+}
+
+.Coupons-header .Coupons-header-button:hover {
+  background: #f6f3f9;
+  color: #4f3267;
+  border: 2px solid black;
+}
+
+.Coupons-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.Coupons-list .card {
+  background-color: #ebebff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Coupons-list .card-title {
+  color: #4f3267;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Coupons-list .Coupons-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  color: #4f3267;
+  font-size: 20px;
+  width: 100%;
+  max-width: 800px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.Coupons-list .card-body {
+  padding: 15px;
+}
+
+.Coupons-list .card-text {
+  color: #4f3267;
+  font-size: 25px;
+}
+
+.Coupons-list .card-subtitle {
+  color: #4f3267;
+  font-size: 20px;
+  width: 50%;
+}
+
+.Coupons-icons-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 80%;
+}
+
+.Coupons-list-button {
+  background-color: #ebebff;
+  padding: 2px;
+  width: 35px;
+  height: 35px;
+  font-size: 25px;
+  align-self: center;
+  color: #4f3267;
+  border-radius: 50%;
+  border: none;
+}
+
+
+.Coupons-list-button:hover {
+  color: #c343ca;
+}

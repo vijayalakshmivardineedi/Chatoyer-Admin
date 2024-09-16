@@ -1,0 +1,103 @@
+.Editproducts-container{
+  font-family: 'Domine', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Editproducts-header-text {
+  color: #4f3267;
+  font-size: 35px;
+  text-align: center;
+}
+
+.Editproducts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.Editproducts-container {
+  padding: 6px;
+}
+
+.Editproducts-title {
+  font-size: 20px;
+  color: black;
+}
+.Editproducts-text {
+  font-size: 18px;
+  color: black;
+}
+
+.Editproducts-button1 {
+    background-color: #4f3267;
+    color: #fff;
+    border: none; 
+    padding: 2px 3px; 
+    cursor: pointer; 
+    border-radius: 3px; 
+  }
+  
+.Editproducts-button2 {
+    background-color: #4f3267; 
+    color: #fff;
+    border: none; 
+    padding: 2px 3px;
+    cursor: pointer; 
+    border-radius: 3px; 
+    margin-bottom: 10px;
+  }
+  
+  .Editproducts-button1:hover {
+    background-color: #ebebff; 
+    color: #4f3267;
+    border: 2px solid black;
+  }
+  .Editproducts-button2:hover {
+    background-color: #ebebff; 
+    color: #4f3267;
+    border: 2px solid black;
+  }
+
+  .Editproducts-button {
+    background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+    color: #fff;
+    border: 2px solid #4f3267;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    transition: background 0.3s ease;
+    margin-left: 60%;
+    margin-top: 25%;
+    width: 100px;
+}
+
+.Editproducts-button:hover {
+    background: #f6f3f9;
+    color: #4f3267;
+    border: 2px solid black;
+}
+
+.Editproduct-back-button {
+  background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+  color: #fff;
+  border: 2px solid #4f3267;
+  text-align: center;
+  border-radius: 30%;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+  transition: background 0.3s ease;
+  margin-right: 10px;
+  height: 40px;
+}
+
+.Editproduct-back-button:hover {
+  background: #f6f3f9;
+  color: #4f3267;
+  border: 2px solid black;
+}

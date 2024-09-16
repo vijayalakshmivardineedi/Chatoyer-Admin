@@ -1,0 +1,101 @@
+.Editcoupons-container {
+    font-family: 'Domine', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Editcoupons-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+.Editcoupons-header-text {
+    color: #4f3267;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Editcard-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 3%;
+    margin-left: 25%;
+    background-color: #ebebff;
+    padding: 20px;
+    border-radius: 8px;
+    width: auto;
+    max-width: 600px;
+    height: auto;
+    min-height: 100px;
+    box-sizing: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.Editcard-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4f3267;
+    font-size: 20px;
+    width: 100%;
+    max-width: 800px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.Editcard-title {
+    color: #4f3267;
+    font-size: 25px;
+}
+
+.Editcard-text {
+    color: #666666;
+    font-size: 21px;
+    width: 50%;
+}
+
+.Editcoupons-button {
+    background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+    color: #fff;
+    border: 2px solid #4f3267;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px;
+    transition: background 0.3s ease;
+    margin-left: 80%;
+    margin-top: 3%;
+}
+
+.Editcoupons-button:hover {
+    background: #f6f3f9;
+    color: #4f3267;
+    border: 2px solid black;
+}
+
+.Editcoupons-back-button {
+    background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+    color: #fff;
+    border: 2px solid #4f3267;
+    text-align: center;
+    border-radius: 30%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+    transition: background 0.3s ease;
+    margin-right: 10px;
+    height: 40px;
+  }
+  
+  .Editcoupons-back-button:hover {
+    background: #f6f3f9;
+    color: #4f3267;
+    border: 2px solid black;
+  }
+  

@@ -1,0 +1,103 @@
+.Addproducts-container{
+  font-family: 'Domine', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Addproducts-header-text {
+  color: #4f3267;
+  font-size: 35px;
+  text-align: center;
+}
+
+.Addproducts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.Addproducts-container {
+  padding: 6px;
+}
+
+.Addproducts-title {
+  font-size: 20px;
+  color: black;
+}
+.Addproducts-text {
+  font-size: 18px;
+  color: black;
+}
+
+.Addproducts-button1 {
+    background-color: #4f3267;
+    color: #fff;
+    border: none; 
+    padding: 2px 3px; 
+    cursor: pointer; 
+    border-radius: 3px; 
+  }
+  
+.Addproducts-button2 {
+    background-color: #4f3267; 
+    color: #fff;
+    border: none; 
+    padding: 2px 3px;
+    cursor: pointer; 
+    border-radius: 3px; 
+    margin-bottom: 10px;
+  }
+  
+  .Addproducts-button1:hover {
+    background-color: #ebebff; 
+    color: #4f3267;
+    border: 2px solid black;
+  }
+  .Addproducts-button2:hover {
+    background-color: #ebebff; 
+    color: #4f3267;
+    border: 2px solid black;
+  }
+
+  .Addproducts-button {
+    background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+    color: #fff;
+    border: 2px solid #4f3267;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    transition: background 0.3s ease;
+    margin-left: 60%;
+    margin-top: 25%;
+    width: 100px;
+}
+
+.Addproducts-button:hover {
+    background: #f6f3f9;
+    color: #4f3267;
+    border: 2px solid black;
+}
+
+.addproduct-back-button {
+  background: linear-gradient(to right, #DE57E5 0%, #8863FB 100%);
+  color: #fff;
+  border: 2px solid #4f3267;
+  text-align: center;
+  border-radius: 30%;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+  transition: background 0.3s ease;
+  margin-right: 10px;
+  height: 40px;
+}
+
+.addproduct-back-button:hover {
+  background: #f6f3f9;
+  color: #4f3267;
+  border: 2px solid black;
+}
